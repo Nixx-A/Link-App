@@ -1,0 +1,32 @@
+{
+  "name": "first-login-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.1",
+    "express-mysql-session": "^3.0.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "timeago.js": "^4.0.2"
+  }
+}
